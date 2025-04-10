@@ -1,9 +1,9 @@
-/*var animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"]
+var animals = ["Кот", "Рыба", "Лемур", "Комодский Варан"]
 for (var i = 0; i < animals.length; i++){
     console.log(animals[i] + ' - прекрасное животное');
-}*/
+}
 
-/*
+
 var alphabet = "абвгдеёжзиклмнопрстуфхцчшщъыьэюя";
 var randomString = '';
 var stringLength = 6; 
@@ -13,7 +13,7 @@ for (var i = 0; i < stringLength ; i++){
     var x = Math.floor(Math.random() * alphabet.length);
 }
 console.log(randomString)
-//
+
 var alphabet = "абвгдеёжзиклмнопрстуфхцчшщъыьэюя";
 var randomString = '';
 var stringLength = stringLength;
@@ -22,9 +22,9 @@ while(randomString.length < 6 ){
     var x = Math.floor(Math.random() * alphabet.length);
 }
 console.log(randomString)
-*/
 
-/*var input = 'javaScript is awesome';
+
+var input = 'javaScript is awesome';
 var output = '';
 for(var i = 0; i = input.length; i++ ){
     if (input[i] === "a"){
@@ -37,9 +37,9 @@ for(var i = 0; i = input.length; i++ ){
         output += '0';
     } else {output += output[i]}
     }
-console.log(output);*/
+console.log(output);
 
-/*var input = 'javaScript is awesome';
+var input = 'javaScript is awesome';
 var output = '';
 for(var i = 0; i < input.length ; i++ ){
     var x = input[i];
@@ -54,63 +54,63 @@ for(var i = 0; i < input.length ; i++ ){
     } else {output += x}
     }
 console.log(output);
-*/
 
-// //задача1
-// var name = prompt("Как вас зовут?");
 
-// //задача2
-// var name = confirm("Тебе нравятся кошки?");
+//задача1
+var name = prompt("Как вас зовут?");
 
-// //задача3
-// var name = alert("JavaScript это Очень круто!");
+//задача2
+var name = confirm("Тебе нравятся кошки?");
 
-// //задача4
-// var name = prompt("Как вас зовут?");
-// alert("Добро пожаловать " + name);
+//задача3
+var name = alert("JavaScript это Очень круто!");
 
-// //задача5
-//  var name = confirm("Ты отправил письмо ?");
-//  if (confirm == true){
-//      alert(true)
-//  } else {
-//      alert(false)
-// }
+//задача4
+var name = prompt("Как вас зовут?");
+alert("Добро пожаловать " + name);
 
-// //задача6
-//  var num = prompt("Подтвердите, что вы совершенно летний!");
+//задача5
+ var name = confirm("Ты отправил письмо ?");
+ if (confirm == true){
+     alert(true)
+ } else {
+     alert(false)
+}
 
-//  if (num >= 18) {
-//      alert("вы совершеннолетний!");
-//  } else {
-//      alert("вы несовершеннолетний, вход запрещен!");
-// }
+//задача6
+ var num = prompt("Подтвердите, что вы совершенно летний!");
 
-// //задача7
-//  var word = prompt("Зимой и летом одним цветом, что это?");
+ if (num >= 18) {
+     alert("вы совершеннолетний!");
+ } else {
+     alert("вы несовершеннолетний, вход запрещен!");
+}
 
-//  if (word === "елка") {
-//      alert("Ответ верен");
-//  } else{
-//      alert("Ответ неверен");
-//  }
+//задача7
+ var word = prompt("Зимой и летом одним цветом, что это?");
 
-// //задача8
-//   var num = prompt("Угадай число от 1 до 10");
+ if (word === "елка") {
+     alert("Ответ верен");
+ } else{
+     alert("Ответ неверен");
+ }
 
-//   if (num == 7){
-//      alert("Вы угадали!")
-//   } else {
-//      alert("вы ошиблись, но в следующий раз вам обязательно повезет!")
-//   }
+//задача8
+  var num = prompt("Угадай число от 1 до 10");
 
-// //задача9
-// var num1 = prompt("Введите сумму зарплаты");
-// var num2 = num1*1.15; 
-//     alert("Премия 15%. На руки " + num2);
-// var num3 = num2*0.9; 
-//     alert("Налоги -10%. На руки " + num3);
-// var num4 = num3 - 190
-//     alert("В магазине оставили 190.Осталось " + num4 );
-// var num5 = num4 / 2
-//     alert("Жене вы отдали половину " + num5 );
+  if (num == 7){
+     alert("Вы угадали!")
+  } else {
+     alert("вы ошиблись, но в следующий раз вам обязательно повезет!")
+  }
+
+//задача9
+var num1 = prompt("Введите сумму зарплаты");
+var num2 = num1*1.15; 
+    alert("Премия 15%. На руки " + num2);
+var num3 = num2*0.9; 
+    alert("Налоги -10%. На руки " + num3);
+var num4 = num3 - 190
+    alert("В магазине оставили 190.Осталось " + num4 );
+var num5 = num4 / 2
+    alert("Жене вы отдали половину " + num5 );

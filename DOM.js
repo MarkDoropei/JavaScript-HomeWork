@@ -1,32 +1,36 @@
-// первое задание var friends = ["рома","илья","кирилл","саша","джим"]
+// первое задание 
+var friends = ["рома","илья","кирилл","саша","джим"]
 
-// for(var i = 0; i < 5; i++){
-//     $("body").append("<p>" + friends[i] + "</p>").fadeOut(1000).fadeIn(2000)
-// }
+for(var i = 0; i < 5; i++){
+    $("body").append("<p>" + friends[i] + "</p>").fadeOut(1000).fadeIn(2000)
+}
 
-// $("p").append(" лучший")
+$("p").append(" лучший")
 
-// $("h1").text("Мои друзья!")
-
-
-// второе задание for(var i = 0; i < 5; i++){$("h1").fadeOut(1000).fadeIn(2000)}
+$("h1").text("Мои друзья!")
 
 
-// третье задание $("h1").fadeOut(1500).delay(5000).fadeIn(1500)
+// второе задание 
+for(var i = 0; i < 5; i++){$("h1").fadeOut(1000).fadeIn(2000)}
 
 
-// четвертое задание $("h1").fadeTo(250 , 0.9);
+// третье задание 
+$("h1").fadeOut(1500).delay(5000).fadeIn(1500)
+
+
+// четвертое задание 
+$("h1").fadeTo(250 , 0.9);
 
 
 
 // первое задание
 
-// $("html").click(function(event){
-//     $("#heading").offset({
-//         left:event.pageX,
-//         top:event.pageY
-// });
-// });
+$("html").click(function(event){
+    $("#heading").offset({
+        left:event.pageX,
+        top:event.pageY
+});
+});
 
 // второе задание   
 
