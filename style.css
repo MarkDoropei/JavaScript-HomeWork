@@ -49,9 +49,14 @@ q:before, q:after {
 }
 
 #map{
-    max-width:400px;
-    max-height:400px;
+    width:800px;
+    height:800px;
+}
 
+#counter{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 38px;
+    text-align: center;
 }
 html{
     max-height: 100%;
@@ -60,8 +65,8 @@ html{
     width:100%;
 }
 div{
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 99%;
+    max-width: 99%;
     display: flex;
     justify-content: center;
 }
