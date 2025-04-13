@@ -62,6 +62,16 @@ var target = {
 }
 let attempts = prompt("За сколько попыток управитесь?")
 
+if(typeof attempts === 'string'){
+    alert("Введите число !!!")
+    let attempts = prompt("За сколько попыток управитесь?")
+}  
+
+if(attempts < 0){
+    alert("Введите положительное число")
+    let attempts = prompt("За сколько попыток управитесь?")
+}
+
 $("#map").click(function (event) {
     clicks++;
     
