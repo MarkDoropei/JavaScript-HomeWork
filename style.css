@@ -70,3 +70,10 @@ div{
     display: flex;
     justify-content: center;
 }
+
+@media(max-width:900px) {
+    #map{
+        max-width:350px;
+        max-height:350px;
+    }
+}
